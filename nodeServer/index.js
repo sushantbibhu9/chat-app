@@ -13,6 +13,6 @@ io.on('connection', socket =>{
     });
 
     socket.on('send', message =>{
-        socket.broadcast.emit('receive', {message, name: user[socket.id]})
+        socket.broadcast.emit('receive', {message, name: users[socket.id]})
     });
 })
