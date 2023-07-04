@@ -7,7 +7,7 @@
 }
 .container{
     max-width: 955px;
-    background-color: grey;
+    background-color: yellow;
     margin: auto;
     height: 60vh;
     padding: 33px;
@@ -15,8 +15,14 @@
     margin-bottom: 23px;
     border: 2px solid black;
 }
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
 .message{
-    background-color: grey;
+    background-color: yellowgreen;
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
@@ -33,7 +39,7 @@
 }
 body{
     height: 100vh;
-    background-image: none;
+    background-color: antiquewhite;
 }
 #send-container{
     display: block;
@@ -47,11 +53,14 @@ body{
     border: 2px solid black;
     border-radius: 6px;
     height: 34px;
+    background-color: greenyellow;
 }
 .btn{
     cursor: pointer;
     border-radius: 6px;
     border: 2px solid black;
     height: 34px;
+    color: black;
+    background-color: yellow;
 
 }
