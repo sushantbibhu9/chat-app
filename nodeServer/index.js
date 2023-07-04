@@ -1,6 +1,3 @@
-const { Socket } = require('socket.io');
-
-//node server 
 const io = require('socket.io')(8000)
 
 const users = {};
@@ -19,5 +16,5 @@ io.on('connection', socket =>{
         socket.broadcast.emit('left', users[socket.id]);
         delete users[socket.id];
     });
-    
+
 })
